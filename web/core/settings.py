@@ -28,6 +28,8 @@ INSTALLED_APPS = [
     'django_extensions',
     
     # Приложения
+    'web.apps.telegram_users',
+    'web.apps.subscriptions',
 ]
 
 MIDDLEWARE = [
